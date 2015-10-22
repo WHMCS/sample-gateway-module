@@ -1,0 +1,26 @@
+{
+    "name": "whmcs/sample-gateway-module",
+    "description": "Sample Third Party Payment Gateway Module for the WHMCS Billing Automation Platform",
+    "keywords": [
+        "whmcs",
+        "web host automation platform",
+        "third party gateway module",
+        "gateway module",
+        "third party gateway"
+    ],
+    "homepage": "http://www.whmcs.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WHMCS Development Team",
+            "email": "development@whmcs.com",
+            "homepage": "http://www.whmcs.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@whmcs.com",
+        "forum": "http://forums.whmcs.com/",
+        "wiki": "http://docs.whmcs.com/"
+    }
+}
