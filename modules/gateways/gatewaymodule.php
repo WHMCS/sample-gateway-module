@@ -19,9 +19,9 @@
  *
  * For more information, please refer to the online documentation.
  *
- * @see http://docs.whmcs.com/Gateway_Module_Developer_Docs
+ * @see https://developers.whmcs.com/payment-gateways/
  *
- * @copyright Copyright (c) WHMCS Limited 2015
+ * @copyright Copyright (c) WHMCS Limited 2017
  * @license http://www.whmcs.com/license/ WHMCS Eula
  */
 
@@ -35,7 +35,7 @@ if (!defined("WHMCS")) {
  * Values returned here are used to determine module related capabilities and
  * settings.
  *
- * @see http://docs.whmcs.com/Gateway_Module_Meta_Data_Parameters
+ * @see https://developers.whmcs.com/payment-gateways/meta-data-params/
  *
  * @return array
  */
@@ -139,7 +139,7 @@ function gatewaymodule_config()
  *
  * @param array $params Payment Gateway Module Parameters
  *
- * @see http://docs.whmcs.com/Payment_Gateway_Module_Parameters
+ * @see https://developers.whmcs.com/payment-gateways/third-party-gateway/
  *
  * @return string
  */
@@ -218,7 +218,7 @@ function gatewaymodule_link($params)
  *
  * @param array $params Payment Gateway Module Parameters
  *
- * @see http://docs.whmcs.com/Payment_Gateway_Module_Parameters
+ * @see https://developers.whmcs.com/payment-gateways/refunds/
  *
  * @return array Transaction response status
  */
@@ -280,7 +280,7 @@ function gatewaymodule_refund($params)
  *
  * @param array $params Payment Gateway Module Parameters
  *
- * @see http://docs.whmcs.com/Payment_Gateway_Module_Parameters
+ * @see https://developers.whmcs.com/payment-gateways/subscription-management/
  *
  * @return array Transaction response status
  */

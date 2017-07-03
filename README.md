@@ -19,7 +19,7 @@ The sample files here demonstrate how we suggest a Third Party Payment Gateway
 module for WHMCS be structured and implemented.
 
 For more information, please refer to the documentation at:
-http://docs.whmcs.com/Gateway_Module_Developer_Docs
+https://developers.whmcs.com/payment-gateways/
 
 ## Recommended Module Content ##
 
@@ -34,14 +34,14 @@ The recommended structure of a third party gateway module is as follows.
 ## Minimum Requirements ##
 
 For the latest WHMCS minimum system requirements, please refer to
-http://docs.whmcs.com/System_Requirements
+https://docs.whmcs.com/System_Requirements
 
 We recommend your module follows the same minimum requirements wherever
 possible.
 
 ## Useful Resources
-* [Developer Resources](http://www.whmcs.com/developers/)
-* [Hook Documentation](http://docs.whmcs.com/Hooks)
-* [API Documentation](http://docs.whmcs.com/API)
+* [Developer Resources](https://developers.whmcs.com/)
+* [Hook Documentation](https://developers.whmcs.com/hooks/)
+* [API Documentation](https://developers.whmcs.com/api/)
 
-[WHMCS Limited](http://www.whmcs.com)
+[WHMCS Limited](https://www.whmcs.com)

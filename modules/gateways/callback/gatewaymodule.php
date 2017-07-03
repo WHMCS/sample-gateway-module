@@ -11,9 +11,9 @@
  *
  * For more information, please refer to the online documentation.
  *
- * @see http://docs.whmcs.com/Gateway_Module_Developer_Docs
+ * @see https://developers.whmcs.com/payment-gateways/callbacks/
  *
- * @copyright Copyright (c) WHMCS Limited 2015
+ * @copyright Copyright (c) WHMCS Limited 2017
  * @license http://www.whmcs.com/license/ WHMCS Eula
  */
 
@@ -66,6 +66,9 @@ if ($hash != md5($invoiceId . $transactionId . $paymentAmount . $secretKey)) {
  * Performs a die upon encountering an invalid Invoice ID.
  *
  * Returns a normalised invoice ID.
+ *
+ * @param int $invoiceId Invoice ID
+ * @param string $gatewayName Gateway Name
  */
 $invoiceId = checkCbInvoiceID($invoiceId, $gatewayParams['name']);
 
@@ -76,6 +79,8 @@ $invoiceId = checkCbInvoiceID($invoiceId, $gatewayParams['name']);
  * transaction number.
  *
  * Performs a die upon encountering a duplicate.
+ *
+ * @param string $transactionId Unique Transaction ID
  */
 checkCbTransID($transactionId);
 
