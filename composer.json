@@ -1,6 +1,7 @@
 {
     "name": "whmcs/sample-gateway-module",
     "description": "Sample Third Party Payment Gateway Module for the WHMCS Billing Automation Platform",
+    "type": "whmcs-gateways",
     "keywords": [
         "whmcs",
         "web host automation platform",
