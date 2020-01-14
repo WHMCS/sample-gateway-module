@@ -1,0 +1,32 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-gateways",
+    "name": "sample-gateway-module",
+    "license": "MIT",
+    "category": "gateway",
+    "description": {
+        "name": "Sample Third Party Payment Gateway Module",
+        "tagline": "Payment Gateway modules allow you to integrate payment solutions with the WHMCS platform.",
+        "long": "The sample files here demonstrate how we suggest a Third Party Payment Gateway module for WHMCS be structured and implemented.",
+        "features": [
+            "Provide both client and admin facing user interfaces",
+            "Utilize hook functionality within WHMCS"
+        ]
+    },
+    "logo": {
+        "filename": "logo.png"
+    },
+    "support": {
+        "homepage": "https:\/\/www.whmcs.com\/", 
+        "learn_more": "https:\/\/www.whmcs.com\/tour", 
+        "email": "support@whmcs.com", 
+        "support_url": "https:\/\/support.whmcs.com\/",
+        "docs_url": "https:\/\/developers.whmcs.com\/payment-gateways\/"
+    },
+    "authors": [
+        {
+            "name": "WHMCS",
+            "homepage": "https:\/\/www.whmcs.com\/"
+        }
+    ]
+}
